@@ -17,6 +17,7 @@ const menuItems = [
   ]},
   { label: "ENTRAR EM CONTATO", path: "/contato" },
   { label: "ENCONTRE SUA BATERIA", path: "/encontre-sua-bateria" },
+  { label: "Nossos Parceiros", path: "/revendas" },
 ];
 
 export default function MobileMenu() {
