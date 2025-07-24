@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation"
 import ProductDetails from "@/app/componentes/produtos/product-details"
-import bateriasData from '@/app/componentes/data/baterias.json'
+import bateriasData from '@/app/componentes/Data/baterias.json'
 
 interface ProductPageProps {
   params: {
