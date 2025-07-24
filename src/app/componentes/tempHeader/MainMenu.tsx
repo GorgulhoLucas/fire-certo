@@ -12,6 +12,7 @@ const menuItems: MenuItem[] = [
   { href: "/", label: <>Baterias <span className="text-black">Fire</span></> },
   { href: "/contato", label: <>Contato</> },
   { href: "/produtos", label: <>Produtos</> },
+  { href: "/revendas", label: <>Nossos Parceiros</> },
 ];
 
 export default function MainMenu() {
