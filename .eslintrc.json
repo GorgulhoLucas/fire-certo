@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "next/core-web-vitals", 
+    "next/typescript", 
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",  // Desabilita o escopo do React, pois não é mais necessário
+    "@typescript-eslint/no-unused-vars": ["warn"],  // Aviso para variáveis não usadas
+    "@typescript-eslint/explicit-function-return-type": "off",  // Desabilitar tipos de retorno explícitos
+    "@typescript-eslint/semi": "off"
+  // Sempre usar ponto e vírgula
+  }
+}
