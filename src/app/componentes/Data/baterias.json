@@ -4,17 +4,17 @@
       "tipo": "veiculos-leves",
       "titulo": "Veículos leves",
       "descricao": "Baterias para veículos leves",
-      "imagem": "/images/veiculosleve.webp",
+      "imagem": "/produtos/categoria/categoria_leve.svg",
       "modelos": [
         {
           "id": "truforce-efb-24",
           "titulo": "Truforce EFB 24 Meses",
           "descricao": "Baterias para veículos leves com 24 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_leve.svg",
           "produtos": [
             {
               "codigo": "EFB50AFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "208 x 172 x 189",
               "capacidade_c20": "50 Ah",
               "polaridade": "D",
@@ -30,7 +30,8 @@
             },
             {
               "codigo": "EFB60AFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg"
+,
               "dimensoes": "238 x 175 x 189",
               "capacidade_c20": "60 Ah",
               "polaridade": "D",
@@ -46,7 +47,7 @@
             },
             {
               "codigo": "EFB72AFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "275 x 175 x 189",
               "capacidade_c20": "72 Ah",
               "polaridade": "D",
@@ -66,11 +67,11 @@
           "id": "truforce-24",
           "titulo": "Truforce 24 Meses",
           "descricao": "Baterias para veículos leves com 24 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_leve.svg",
           "produtos": [
             {
               "codigo": "TF45BFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "208 x 172 x 172",
               "capacidade_c20": "45 Ah",
               "polaridade": "D",
@@ -86,7 +87,7 @@
             },
             {
               "codigo": "TF50AFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "208 x 172 x 189",
               "capacidade_c20": "50 Ah",
               "polaridade": "D",
@@ -102,7 +103,7 @@
             },
             {
               "codigo": "TF60AFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "238 x 175 x 189",
               "capacidade_c20": "60 Ah",
               "polaridade": "D",
@@ -118,7 +119,7 @@
             },
             {
               "codigo": "TF60BFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "238 x 175 x 175",
               "capacidade_c20": "60 Ah",
               "polaridade": "D",
@@ -134,7 +135,7 @@
             },
             {
               "codigo": "TF75AFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "275 x 175 x 189",
               "capacidade_c20": "75 Ah",
               "polaridade": "D",
@@ -154,11 +155,11 @@
           "id": "maxfor-18",
           "titulo": "Maxfor 18 Meses",
           "descricao": "Baterias para veículos leves com 18 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_leve.svg",
           "produtos": [
             {
               "codigo": "LP40NFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "196 x 125 x 226",
               "capacidade_c20": "40 Ah",
               "polaridade": "D",
@@ -174,7 +175,7 @@
             },
             {
               "codigo": "LP45BFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "208 x 172 x 172",
               "capacidade_c20": "45 Ah",
               "polaridade": "D",
@@ -190,7 +191,7 @@
             },
             {
               "codigo": "LP50AFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "208 x 172 x 189",
               "capacidade_c20": "50 Ah",
               "polaridade": "D",
@@ -206,7 +207,7 @@
             },
             {
               "codigo": "LP50NFD/E",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "237 x 125 x 230",
               "capacidade_c20": "50 Ah",
               "polaridade": "D/E",
@@ -222,7 +223,7 @@
             },
             {
               "codigo": "LP60BFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "238 x 175 x 175",
               "capacidade_c20": "60 Ah",
               "polaridade": "D",
@@ -238,7 +239,7 @@
             },
             {
               "codigo": "LP60AFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "238 x 175 x 189",
               "capacidade_c20": "60 Ah",
               "polaridade": "D",
@@ -254,7 +255,7 @@
             },
             {
               "codigo": "LP70BFD/E",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "275 x 175 x 175",
               "capacidade_c20": "70 Ah",
               "polaridade": "D/E",
@@ -270,7 +271,7 @@
             },
             {
               "codigo": "LP75AFD/E",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "275 x 175 x 189",
               "capacidade_c20": "75 Ah",
               "polaridade": "D/E",
@@ -286,7 +287,7 @@
             },
             {
               "codigo": "LP80NFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "257 x 173 x 224",
               "capacidade_c20": "80 Ah",
               "polaridade": "D",
@@ -306,11 +307,11 @@
           "id": "maxfor-12",
           "titulo": "Maxfor 12 Meses",
           "descricao": "Baterias para veículos leves com 12 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_leve.svg",
           "produtos": [
             {
               "codigo": "B40BFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "208 x 172 x 172",
               "capacidade_c20": "40 Ah",
               "polaridade": "D",
@@ -326,7 +327,7 @@
             },
             {
               "codigo": "B45BFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "208 x 172 x 172",
               "capacidade_c20": "45 Ah",
               "polaridade": "D",
@@ -342,7 +343,7 @@
             },
             {
               "codigo": "B50BFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "238 x 175 x 175",
               "capacidade_c20": "50 Ah",
               "polaridade": "D",
@@ -358,7 +359,7 @@
             },
             {
               "codigo": "B50BCD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "238 x 175 x 175",
               "capacidade_c20": "50 Ah",
               "polaridade": "D",
@@ -374,7 +375,7 @@
             },
             {
               "codigo": "B60BCD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "238 x 175 x 175",
               "capacidade_c20": "60 Ah",
               "polaridade": "D",
@@ -390,7 +391,7 @@
             },
             {
               "codigo": "B60BFD/E",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "238 x 175 x 175",
               "capacidade_c20": "60 Ah",
               "polaridade": "D/E",
@@ -406,7 +407,7 @@
             },
             {
               "codigo": "B70BCD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "275 x 175 x 175",
               "capacidade_c20": "70 Ah",
               "polaridade": "D",
@@ -422,7 +423,7 @@
             },
             {
               "codigo": "B75BFD",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_leve.svg",
               "dimensoes": "286 x 172 x 175",
               "capacidade_c20": "75 Ah",
               "polaridade": "D",
@@ -444,17 +445,17 @@
       "tipo": "veiculos-pesados",
       "titulo": "Veículos Pesados",
       "descricao": "Baterias para veículos pesados",
-      "imagem": "/images/veiculospesados.webp",
+      "imagem": "/produtos/categoria/categoria_pesados.svg",
       "modelos": [
         {
           "id": "maxfor-frota-15",
           "titulo": "Maxfor Frota+ 15 Meses",
           "descricao": "Baterias para veículos pesados com 15 meses de garantia",
-          "imagem": "/fire-caminhao.png",
+          "imagem": "/baterias/bateria_pesado.svg",
           "produtos": [
             {
               "codigo": "BF90AFD",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_pesado.svg",
               "dimensoes": "350 x 174 x 189",
               "capacidade_c20": "90 Ah",
               "polaridade": "D",
@@ -470,7 +471,7 @@
             },
             {
               "codigo": "BF90NFD/E",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_pesado.svg",
               "dimensoes": "304 x 171 x 222",
               "capacidade_c20": "90 Ah",
               "polaridade": "D/E",
@@ -486,7 +487,7 @@
             },
             {
               "codigo": "BF90GFE",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_pesado.svg",
               "dimensoes": "328 x 172 x 242",
               "capacidade_c20": "90 Ah",
               "polaridade": "E",
@@ -502,7 +503,7 @@
             },
             {
               "codigo": "BF100AFD",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_pesado.svg",
               "dimensoes": "350 x 174 x 189",
               "capacidade_c20": "100 Ah",
               "polaridade": "D",
@@ -518,7 +519,7 @@
             },
             {
               "codigo": "BF100GFE",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_pesado.svg",
               "dimensoes": "328 x 172 x 242",
               "capacidade_c20": "100 Ah",
               "polaridade": "E",
@@ -534,7 +535,7 @@
             },
             {
               "codigo": "BF150TFD",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_pesado.svg",
               "dimensoes": "508 x 215 x 230",
               "capacidade_c20": "150 Ah",
               "polaridade": "D",
@@ -554,11 +555,11 @@
           "id": "maxfor-frota-12",
           "titulo": "Maxfor Frota 12 Meses",
           "descricao": "Baterias para veículos pesados com 12 meses de garantia",
-          "imagem": "/fire-caminhao.png",
+          "imagem": "/baterias/bateria_pesado.svg",
           "produtos": [
             {
               "codigo": "B100GCE",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_pesado.svg",
               "dimensoes": "328 x 172 x 242",
               "capacidade_c20": "100 Ah",
               "polaridade": "E",
@@ -574,7 +575,7 @@
             },
             {
               "codigo": "B150TCD",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_pesado.svg",
               "dimensoes": "508 x 215 x 230",
               "capacidade_c20": "150 Ah",
               "polaridade": "D",
@@ -590,7 +591,7 @@
             },
             {
               "codigo": "B180TCD/E",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_pesado.svg",
               "dimensoes": "508 x 215 x 230",
               "capacidade_c20": "180 Ah",
               "polaridade": "D/E",
@@ -606,7 +607,7 @@
             },
             {
               "codigo": "B2200CD/E",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_pesado.svg",
               "dimensoes": "520 x 274 x 230",
               "capacidade_c20": "220 Ah",
               "polaridade": "D/E",
@@ -628,17 +629,17 @@
       "tipo": "estacionarias",
       "titulo": "Baterias Estacionárias",
       "descricao": "Baterias projetadas para uso estacionário com alta durabilidade",
-      "imagem": "/images/estacionaria.webp",
+      "imagem": "/produtos/categoria/categoria_estacionaria.svg",
       "modelos": [
         {
           "id": "maxfor-estacionaria-24",
           "titulo": "Maxfor Estacionária 24 Meses",
           "descricao": "Baterias estacionárias com 24 meses de garantia",
-          "imagem": "/fire-caminhao.png",
+          "imagem": "/baterias/bateria_estacionaria.svg",
           "produtos": [
             {
               "codigo": "BE300BF",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_estacionaria.svg",
               "dimensoes": "208 x 172 x 172",
               "capacidade_c100": "34 Ah",
               "capacidade_c20": "28 Ah",
@@ -651,7 +652,7 @@
             },
             {
               "codigo": "BE500BF",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_estacionaria.svg",
               "dimensoes": "208 x 172 x 172",
               "capacidade_c100": "46 Ah",
               "capacidade_c20": "40 Ah",
@@ -664,7 +665,7 @@
             },
             {
               "codigo": "BE700BF",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_estacionaria.svg",
               "dimensoes": "208 x 172 x 172",
               "capacidade_c100": "51 Ah",
               "capacidade_c20": "46 Ah",
@@ -677,7 +678,7 @@
             },
             {
               "codigo": "BE1000BF",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_estacionaria.svg",
               "dimensoes": "238 x 175 x 175",
               "capacidade_c100": "73 Ah",
               "capacidade_c20": "62 Ah",
@@ -690,7 +691,7 @@
             },
             {
               "codigo": "BE2000GF",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_estacionaria.svg",
               "dimensoes": "328 x 172 x 240",
               "capacidade_c100": "114 Ah",
               "capacidade_c20": "107 Ah",
@@ -703,7 +704,7 @@
             },
             {
               "codigo": "BE2500TF",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_estacionaria.svg",
               "dimensoes": "508 x 215 x 230",
               "capacidade_c100": "167 Ah",
               "capacidade_c20": "152 Ah",
@@ -716,7 +717,7 @@
             },
             {
               "codigo": "BE4000OF",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_estacionaria.svg",
               "dimensoes": "520 x 274 x 230",
               "capacidade_c100": "245 Ah",
               "capacidade_c20": "225 Ah",
@@ -735,17 +736,17 @@
       "tipo": "solares",
       "titulo": "Baterias Solares",
       "descricao": "Baterias projetadas para sistemas de energia solar com 24 meses de garantia",
-      "imagem": "/images/solar.webp",
+      "imagem": "/produtos/categoria/categoria_solar.svg",
       "modelos": [
         {
           "id": "maxfor-solar-24",
           "titulo": "Maxfor Solar 24 Meses",
           "descricao": "Baterias solares com 24 meses de garantia",
-          "imagem": "/fire-caminhao.png",
+          "imagem": "/baterias/bateria_solar.svg",
           "produtos": [
             {
               "codigo": "BS111GF",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_solar.svg",
               "dimensoes": "328 x 172 x 240",
               "capacidade_c120": "120 Ah",
               "capacidade_c20": "105 Ah",
@@ -758,7 +759,7 @@
             },
             {
               "codigo": "BS162TF",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_solar.svg",
               "dimensoes": "508 x 215 x 230",
               "capacidade_c120": "175 Ah",
               "capacidade_c20": "150 Ah",
@@ -771,7 +772,7 @@
             },
             {
               "codigo": "BS190TF",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_solar.svg",
               "dimensoes": "508 x 215 x 230",
               "capacidade_c120": "195 Ah",
               "capacidade_c20": "175 Ah",
@@ -784,7 +785,7 @@
             },
             {
               "codigo": "BS236OF",
-              "imagem": "/fire-caminhao.png",
+              "imagem": "/baterias/bateria_solar.svg",
               "dimensoes": "520 x 274 x 230",
               "capacidade_c120": "245 Ah",
               "capacidade_c20": "220 Ah",
@@ -803,17 +804,17 @@
       "tipo": "motocicletas",
       "titulo": "Motos",
       "descricao": "Baterias AGM VRLA para motos",
-      "imagem": "/fire.fw.png",
+      "imagem": "/produtos/categoria/categoria_moto.svg",
       "modelos": [
         {
           "id": "naja-10-ns",
           "titulo": "Naja 10 NS",
           "descricao": "Bateria AGM VRLA para motos, livre de manutenção, com 6 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_moto.svg",
           "produtos": [
             {
               "codigo": "8067",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_moto.svg",
               "dimensoes": "150 x 87 x 94 mm",
               "capacidade_c10": "8.6 Ah",
               "polaridade": "Esquerda",
@@ -834,11 +835,11 @@
           "id": "naja-4-ns",
           "titulo": "Naja 4 NS",
           "descricao": "Bateria AGM VRLA para motos, livre de manutenção, com 6 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_moto.svg",
           "produtos": [
             {
               "codigo": "8052",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_moto.svg",
               "dimensoes": "114 x 71 x 86 mm",
               "capacidade_c10": "3.7 Ah",
               "polaridade": "Direita",
@@ -859,11 +860,11 @@
           "id": "naja-5-jp",
           "titulo": "Naja 5 JP",
           "descricao": "Bateria AGM VRLA para motos, livre de manutenção, com 6 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_moto.svg",
           "produtos": [
             {
               "codigo": "8097",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_moto.svg",
               "dimensoes": "120 x 60 x 130 mm",
               "capacidade_c10": "5 Ah",
               "polaridade": "Direita",
@@ -884,11 +885,11 @@
           "id": "naja-5-ns",
           "titulo": "Naja 5 NS",
           "descricao": "Bateria AGM VRLA para motos, livre de manutenção, com 12 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_moto.svg",
           "produtos": [
             {
               "codigo": "8053",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_moto.svg",
               "dimensoes": "114 x 71 x 106 mm",
               "capacidade_c10": "5 Ah",
               "polaridade": "Direita",
@@ -909,11 +910,11 @@
           "id": "naja-5-5-ns",
           "titulo": "Naja 5.5 NS",
           "descricao": "Bateria AGM VRLA para motos, livre de manutenção, com 6 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_moto.svg",
           "produtos": [
             {
               "codigo": "8064",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_moto.svg",
               "dimensoes": "135 x 60 x 130 mm",
               "capacidade_c10": "5.5 Ah",
               "polaridade": "Direita",
@@ -934,11 +935,11 @@
           "id": "naja-7-ns",
           "titulo": "Naja 7 NS",
           "descricao": "Bateria AGM VRLA para motos, livre de manutenção, com 6 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_moto.svg",
           "produtos": [
             {
               "codigo": "8055",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_moto.svg",
               "dimensoes": "114 x 71 x 131 mm",
               "capacidade_c10": "7 Ah",
               "polaridade": "Direita",
@@ -959,11 +960,11 @@
           "id": "naja-7a-ns",
           "titulo": "Naja 7A NS",
           "descricao": "Bateria AGM VRLA para motos, livre de manutenção, com 6 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_moto.svg",
           "produtos": [
             {
               "codigo": "8066",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_moto.svg",
               "dimensoes": "150 x 87 x 94 mm",
               "capacidade_c10": "7 Ah",
               "polaridade": "Esquerda",
@@ -984,11 +985,11 @@
           "id": "naja-9a-ys",
           "titulo": "Naja 9A YS",
           "descricao": "Bateria AGM VRLA para motos, livre de manutenção, com 6 meses de garantia",
-          "imagem": "/fire.fw.png",
+          "imagem": "/baterias/bateria_moto.svg",
           "produtos": [
             {
               "codigo": "8068",
-              "imagem": "/fire.fw.png",
+              "imagem": "/baterias/bateria_moto.svg",
               "dimensoes": "135 x 76 x 135 mm",
               "capacidade_c10": "9 Ah",
               "polaridade": "Esquerda",

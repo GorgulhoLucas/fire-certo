@@ -1,7 +1,5 @@
-import Contact from '../componentes/Contato/Contato';
-import Banner from '../componentes/Banners/Banner_home/BannerH';
-import InfoGrid from '../componentes/InfoGrid';
-import FaqSection from '../componentes/Contato/faq-section';
+import Contact from '../componentes/Contato/contato_secao';
+import FaqSection from '../componentes/Contato/perguntas_frequentes';
 
 export default function ProdutosPage() {
   return (
@@ -10,8 +8,6 @@ export default function ProdutosPage() {
         <Contact />
         <FaqSection/>
       </div>
-      
-    
       
       {/* Aqui você pode listar os produtos */}
     </section>

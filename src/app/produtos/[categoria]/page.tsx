@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation"
-import CategoryPage from "../../componentes/produtos/category-page"
+import CategoryPage from "@/app/componentes/produtos/Categorias/Categorias_page/pagina_categoria"
 import bateriasData from '@/app/componentes/Data/baterias.json'
 
 

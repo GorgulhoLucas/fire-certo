@@ -38,7 +38,7 @@ export default function RevendasPage() {
   useEffect(() => {
     const carregarRevendas = async () => {
       try {
-        const response = await fetch("/revendas.json")
+        const response = await fetch("/banco_provisorio_json/filial.json")
         const data = await response.json()
         setRevendas(data.revendas)
         setFiltroRevendas(data.revendas)

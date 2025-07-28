@@ -13,30 +13,16 @@ import BannerText from "../../ui/banner-text"
 const bannerSlides = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=600&fit=crop",
-    alt: "Loja de baterias automotivas - Atendimento profissional",
+    image: "/home/banner_home1.svg",
+    alt: "Bateria automotiva - Banner 1",
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=1200&h=600&fit=crop",
-    alt: "Carro esportivo vermelho - Instalação de bateria",
-  },
-  {
-    id: 3,
-    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=1200&h=600&fit=crop",
-    alt: "Carro vermelho sedan - Serviço automotivo",
-  },
-  {
-    id: 4,
-    image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200&h=600&fit=crop",
-    alt: "Moto vermelha esportiva - Baterias para motocicletas",
-  },
-  {
-    id: 5,
-    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=1200&h=600&fit=crop",
-    alt: "SUV vermelho - Manutenção automotiva",
+    image: "/home/banner_home2.svg",
+    alt: "Bateria automotiva - Banner 2",
   },
 ]
+
 
 const Banner = () => {
   return (

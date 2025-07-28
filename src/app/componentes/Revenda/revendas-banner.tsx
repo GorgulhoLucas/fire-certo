@@ -5,7 +5,7 @@ export default function RevendasBanner() {
     <div className="relative h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop&crop=center"
+        src="/filial/banner_filial.svg"
         alt="Revendas Fire Baterias"
         fill
         className="object-cover"
