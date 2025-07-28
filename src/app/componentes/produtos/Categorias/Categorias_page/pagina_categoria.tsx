@@ -74,14 +74,14 @@ export default function CategoryPage({ categoryData }: CategoryPageProps) {
   return (
     <div>
       {/* Banner da Categoria - Estilo Industrial */}
-      <div className="relative h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden">
+      <div className="relative h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] overflow-hidden">
 
 
         <Image
-          src={categoryData.imagem} //arrumar dps
+          src={categoryData.imagem}
           alt={categoryData.titulo}
           fill
-          className="object-cover"
+          className="object-cover object-center"
           priority
           sizes="100vw"
         />
@@ -123,53 +123,117 @@ export default function CategoryPage({ categoryData }: CategoryPageProps) {
             </Link>
           </div>
 
-          {/* Seletor de Modelos */}
+         {/* Seletor de Modelos - Scroll Horizontal */}
           <div className="mb-16">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">Escolha o Modelo</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {categoryData.modelos.map((modelo, index) => (
-                <button
-                  key={modelo.id}
-                  onClick={() => setSelectedModel(modelo)}
-                  className={`relative p-6 rounded-2xl transition-all duration-300 hover:scale-105 ${
-                    selectedModel?.id === modelo.id
-                      ? "bg-red-600 text-white shadow-2xl"
-                      : "bg-white text-gray-900 shadow-lg hover:shadow-xl"
-                  }`}
-                >
-                  {/* Imagem da bateria */}
-                  <div className="relative h-32 mb-4">
-                    <Image
-                      src={modelo.imagem}   
-                      alt={modelo.titulo}
-                      fill
-                      className="object-contain"
-                      sizes="(max-width: 768px) 100vw, 25vw"
-                    />
-                  </div>
 
-                  {/* Nome do modelo */}
-                  <h3 className="font-bold text-lg mb-2 leading-tight">{modelo.titulo}</h3>
+            {/* Container com scroll horizontal */}
+            <div className="relative">
+              {/* Gradiente esquerdo */}
+              <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-gray-50 to-transparent z-10 pointer-events-none"></div>
 
-                  {/* Quantidade de produtos */}
-                  <p className={`text-sm ${selectedModel?.id === modelo.id ? "text-red-200" : "text-gray-600"}`}>
-                    {modelo.produtos.length} produto{modelo.produtos.length !== 1 ? "s" : ""}
-                  </p>
+              {/* Gradiente direito */}
+              <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-gray-50 to-transparent z-10 pointer-events-none"></div>
 
-                  {/* Badge de selecionado */}
-                  {selectedModel?.id === modelo.id && (
-                    <div className="absolute -top-3 -right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                      <svg className="w-5 h-5 text-red-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                          clipRule="evenodd"
+              {/* Container scrollável */}
+              <div className="overflow-x-auto scrollbar-hide pb-4">
+                <div className="flex gap-6 px-4" style={{ scrollSnapType: "x mandatory" }}>
+                  {categoryData.modelos.map((modelo, index) => (
+                    <button
+                      key={modelo.id}
+                      onClick={() => setSelectedModel(modelo)}
+                      className={`relative p-6 rounded-2xl transition-all duration-300 hover:scale-105 flex-shrink-0 w-72 md:w-80 ${
+                        selectedModel?.id === modelo.id
+                          ? "bg-red-600 text-white shadow-2xl"
+                          : "bg-white text-gray-900 shadow-lg hover:shadow-xl"
+                      }`}
+                      style={{ scrollSnapAlign: "start" }}
+                    >
+                      {/* Imagem da bateria */}
+                      <div className="relative h-32 mb-4">
+                        <Image
+                          src={modelo.imagem}
+                          alt={modelo.titulo}
+                          fill
+                          className="object-contain"
+                          sizes="320px"
                         />
-                      </svg>
-                    </div>
-                  )}
-                </button>
-              ))}
+                      </div>
+
+                      {/* Nome do modelo */}
+                      <h3 className="font-bold text-lg mb-2 leading-tight text-left">{modelo.titulo}</h3>
+
+                      {/* Descrição */}
+                      <p
+                        className={`text-sm mb-3 text-left leading-relaxed ${
+                          selectedModel?.id === modelo.id ? "text-red-200" : "text-gray-600"
+                        }`}
+                      >
+                        {modelo.descricao || "Linha completa de baterias de alta qualidade"}
+                      </p>
+
+                      {/* Quantidade de produtos */}
+                      <p
+                        className={`text-sm font-medium text-left ${
+                          selectedModel?.id === modelo.id ? "text-red-200" : "text-gray-600"
+                        }`}
+                      >
+                        {modelo.produtos.length} produto{modelo.produtos.length !== 1 ? "s" : ""} disponível
+                        {modelo.produtos.length !== 1 ? "is" : ""}
+                      </p>
+
+                      {/* Badge de selecionado */}
+                      {selectedModel?.id === modelo.id && (
+                        <div className="absolute -top-3 -right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-lg">
+                          <svg className="w-5 h-5 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                              fillRule="evenodd"
+                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+                        </div>
+                      )}
+
+                      {/* Indicador de posição (apenas mobile) */}
+                      <div className="absolute bottom-2 right-2 md:hidden">
+                        <span
+                          className={`text-xs px-2 py-1 rounded-full ${
+                            selectedModel?.id === modelo.id ? "bg-white/20 text-white" : "bg-gray-100 text-gray-600"
+                          }`}
+                        >
+                          {index + 1}/{categoryData.modelos.length}
+                        </span>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Indicador de scroll (desktop) */}
+              <div className="hidden md:flex justify-center mt-4 space-x-2">
+                {categoryData.modelos.map((_, index) => (
+                  <div
+                    key={index}
+                    className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                      selectedModel?.id === categoryData.modelos[index].id ? "bg-red-600 w-8" : "bg-gray-300"
+                    }`}
+                  />
+                ))}
+              </div>
+
+              {/* Dica de scroll (mobile) */}
+              <div className="md:hidden text-center mt-4">
+                <p className="text-sm text-gray-500 flex items-center justify-center">
+                  <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l4-4m0 0l4 4m-4-4v12" />
+                  </svg>
+                  Deslize para ver mais modelos
+                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </p>
+              </div>
             </div>
           </div>
 
@@ -255,6 +319,15 @@ export default function CategoryPage({ categoryData }: CategoryPageProps) {
           )}
         </div>
       </div>
+      <style jsx global>{`
+        .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+        .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+        }
+      `}</style>
     </div>
   )
 }
