@@ -13,6 +13,7 @@ const menuItems: MenuItem[] = [
   { href: "/contato", label: <>Contato</> },
   { href: "/produtos", label: <>Produtos</> },
   { href: "/revendas", label: <>Nossos Parceiros</> },
+  { href: "/descubra-sua-bateria", label: <>Descubra sua Bateria</> },
 ];
 
 export default function MainMenu() {

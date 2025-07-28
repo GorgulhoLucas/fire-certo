@@ -16,7 +16,7 @@ const menuItems = [
     { label: "ESTACIONÁRIA", path: "/produtos/estacionarias" }
   ]},
   { label: "ENTRAR EM CONTATO", path: "/contato" },
-  { label: "ENCONTRE SUA BATERIA", path: "/encontre-sua-bateria" },
+  { label: "ENCONTRE SUA BATERIA", path: "/descubra-sua-bateria" },
   { label: "Nossos Parceiros", path: "/revendas" },
 ];
 
