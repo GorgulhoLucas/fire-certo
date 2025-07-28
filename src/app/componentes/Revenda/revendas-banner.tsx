@@ -21,10 +21,10 @@ export default function RevendasBanner() {
         <div className="max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl">
             <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-white mb-6 leading-tight tracking-tight">
-              REVENDAS
+              FILIAIS
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 font-medium leading-relaxed max-w-lg">
-              Encontre a revenda Fire Baterias mais próxima de você
+              Encontre a Fire mais próxima de você
             </p>
           </div>
         </div>

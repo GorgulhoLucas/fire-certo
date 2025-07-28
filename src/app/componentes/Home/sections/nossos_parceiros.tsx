@@ -4,14 +4,14 @@ export default function BrandsSection() {
   const brands = [
   {
     src: "/home/marcas_parceiras/marca_parceira1.svg",
-    alt: "Marca Parceira 1",
-    name: "Marca Parceira 1",
+    alt: "",
+    name: "",
     description: "Qualidade garantida",
   },
   {
     src: "/home/marcas_parceiras/marca_parceira2.svg",
-    alt: "Marca Parceira 2",
-    name: "Marca Parceira 2",
+    alt: "",
+    name: "",
     description: "Confiança e inovação",
   },
 ]

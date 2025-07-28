@@ -89,7 +89,7 @@ export default function RevendasPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Como Funciona o Localizador</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Encontre a revenda Fire Baterias mais próxima de você em poucos cliques
+              Encontre uma filial Fire Baterias mais próxima de você em poucos cliques
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function RevendasPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">2. Veja os resultados</h3>
               <p className="text-gray-600 leading-relaxed">
-                O sistema mostrará todas as revendas próximas a você no mapa interativo e em uma lista detalhada.
+                O sistema mostrará todas as filiais próximas a você no mapa interativo e em uma lista detalhada.
               </p>
             </div>
 
@@ -120,7 +120,7 @@ export default function RevendasPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">3. Entre em contato</h3>
               <p className="text-gray-600 leading-relaxed">
-                Ligue diretamente para a revenda ou veja a localização no Google Maps para visitá-la pessoalmente.
+                Ligue diretamente para a filial ou veja a localização no Google Maps para visitá-la pessoalmente.
               </p>
             </div>
           </div>
@@ -132,7 +132,7 @@ export default function RevendasPage() {
         <div className="bg-white rounded-3xl shadow-xl p-6 md:p-8 mb-12">
           <div className="flex items-center mb-6">
             <Filter className="w-6 h-6 text-red-600 mr-3" />
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Filtrar Revendas</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Localizar Filiais</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -196,7 +196,7 @@ export default function RevendasPage() {
           {/* Lista de Revendas - Com Scroll */}
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-              Revendas Encontradas ({filtroRevendas.length})
+              Filiais Encontradas ({filtroRevendas.length})
             </h2>
 
             {filtroRevendas.length === 0 ? (
@@ -204,8 +204,8 @@ export default function RevendasPage() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <MapPin className="w-8 h-8 text-gray-400" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Nenhuma revenda encontrada</h3>
-                <p className="text-gray-600">Tente ajustar os filtros para encontrar revendas na sua região.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Nenhuma filial encontrada</h3>
+                <p className="text-gray-600">Tente ajustar os filtros para encontrar filiais na sua região.</p>
               </div>
             ) : (
               <div className="h-[600px] overflow-y-auto pr-2 space-y-6 scrollbar-thin scrollbar-thumb-red-300 scrollbar-track-gray-100">
@@ -282,7 +282,7 @@ export default function RevendasPage() {
                 <Shield className="w-6 h-6 text-red-600" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                Por que comprar em uma revenda autorizada?
+                Por que comprar em uma filial autorizada?
               </h2>
             </div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -343,7 +343,7 @@ export default function RevendasPage() {
                 <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mr-4">
                   <Globe className="w-6 h-6 text-white" />
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold">Sobre Nossa Rede de Revendas</h2>
+                <h2 className="text-3xl md:text-4xl font-bold">Sobre a rede FIRE</h2>
               </div>
 
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
