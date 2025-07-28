@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function ProductsHero() {
   return (
-    <div className="relative h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden">
+    <div className="relative h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] overflow-hidden">
       {/* Background Image */}
       <Image
         src="/produtos/banner_produto.svg"

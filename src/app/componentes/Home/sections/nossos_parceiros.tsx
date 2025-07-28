@@ -31,7 +31,8 @@ export default function BrandsSection() {
         </div>
 
         {/* Brands Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        {/* Ajustado para exibir apenas 2 colunas e centralizar a grade */}
+        <div className="grid grid-cols-2 gap-6 max-w-md mx-auto">
           {brands.map((brand, index) => (
             <div
               key={index}
@@ -44,7 +45,7 @@ export default function BrandsSection() {
                   alt={brand.alt}
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
-                  sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 16vw"
+                  sizes="(max-width: 768px) 50vw, 50vw"
                 />
                 {/* Dark overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>

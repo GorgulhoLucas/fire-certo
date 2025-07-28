@@ -5,7 +5,7 @@ export default function DescubraBateriaBanner() {
     <div className="relative h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200&h=800&fit=crop&crop=center"
+        src="/descubra_bateria/banner_descubra_bateria.svg"
         alt="Descubra sua Bateria - Fire Baterias"
         fill
         className="object-cover object-center"

@@ -1,11 +1,13 @@
 import { Phone, MessageCircle, Mail, MapPin, Clock, Users, Award } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function ContactSection() {
   return (
     <div className="bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Banner Hero - Estilo Industrial */}
-      <div className="relative h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden">
+      <div className="relative h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] overflow-hidden">
+        
         {/* Background Image */}
         <Image
           src="/contato/banner_contato.svg"
@@ -21,12 +23,12 @@ export default function ContactSection() {
 
         {/* Conteúdo posicionado à esquerda */}
         <div className="absolute inset-0 flex items-center">
-          <div className="max-w-7xl mx-auto px-6 w-full">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full">
             <div className="max-w-2xl">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-white mb-6 leading-tight tracking-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-white mb-3 sm:mb-4 md:mb-6 leading-tight tracking-tight">
                 CONTATO
               </h1>
-              <p className="text-xl md:text-2xl text-gray-200 font-medium leading-relaxed max-w-lg">
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 font-medium leading-relaxed max-w-lg">
                 A energia que você precisa, com o atendimento que você merece
               </p>
             </div>
@@ -34,7 +36,7 @@ export default function ContactSection() {
         </div>
 
         {/* Elemento decorativo - linha vertical */}
-        <div className="absolute left-6 top-1/2 transform -translate-y-1/2 w-1 h-32 bg-red-600 hidden md:block"></div>
+        <div className="absolute left-4 sm:left-6 top-1/2 transform -translate-y-1/2 w-1 h-16 sm:h-24 md:h-32 bg-red-600 hidden md:block"></div>
       </div>
 
       <main className="max-w-7xl mx-auto px-6 py-16">
@@ -262,17 +264,22 @@ export default function ContactSection() {
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
               <div className="p-6 bg-gradient-to-r from-red-600 to-red-700 text-white">
                 <h3 className="font-bold text-lg">Localização das Filiais</h3>
-                <p className="text-red-100">Itajubá e Pouso Alegre - MG</p>
               </div>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117663.88835631336!2d-45.52461!3d-22.41461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca9c8b0b8b0b0b%3A0x0!2sItajub%C3%A1%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1685555567895!5m2!1spt-BR!2sbr"
-                width="100%"
-                height="350"
-                style={{ border: 0 }}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Localização Fire Baterias - Itajubá e Pouso Alegre"
-              ></iframe>
+              <Link href="/revendas" passHref>
+                <div className="relative w-full h-[350px] flex items-center justify-center bg-gray-200">
+                    <Image
+                      src="/contato/mapa.svg"
+                      alt="Clique para ver nossas revendas no mapa"
+                      fill
+                      className="object-cover object-center opacity-70"
+                    />
+                    <div className="absolute z-10 text-center p-4 bg-white/80 rounded-lg shadow-lg">
+                      <MapPin className="w-10 h-10 text-red-600 mx-auto mb-2" />
+                      <p className="text-lg font-semibold text-gray-800">Ver Nossas Revendas no Mapa</p>
+                      <p className="text-sm text-gray-600">Clique para encontrar a mais próxima de você!</p>
+                    </div>
+                  </div>
+                </Link>
             </div>
           </div>
         </div>
