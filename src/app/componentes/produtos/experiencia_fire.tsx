@@ -41,7 +41,7 @@ export default function FireExperienceSection() {
                   href="/contato"
                   className="inline-flex items-center justify-center bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold px-6 py-3 rounded-xl transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl text-sm"
                 >
-                  Conheça Nossos Produtos
+                  Fale com nossa equipe
                 </a>
                 <a
                   href="https://wa.me/5535988124321?text=Olá! Gostaria de saber mais sobre as baterias FIRE."

@@ -275,7 +275,7 @@ export default function ContactSection() {
                     />
                     <div className="absolute z-10 text-center p-4 bg-white/80 rounded-lg shadow-lg">
                       <MapPin className="w-10 h-10 text-red-600 mx-auto mb-2" />
-                      <p className="text-lg font-semibold text-gray-800">Ver Nossas Revendas no Mapa</p>
+                      <p className="text-lg font-semibold text-gray-800">Ver Nossas Filiais no Mapa</p>
                       <p className="text-sm text-gray-600">Clique para encontrar a mais próxima de você!</p>
                     </div>
                   </div>
